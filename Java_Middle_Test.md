@@ -81,9 +81,9 @@ package <包名>;
 - 4、private： 私有的权限，只对本类的方法可以使用；
 
 ##### 基本类型的类包装
-Double 类的构造方法：Double (double num)
-Float 类的构造方法：Float(float num)
-Char 的构造方法：Character(char c)
+- Double 类的构造方法：Double (double num)
+- Float 类的构造方法：Float(float num)
+- Char 的构造方法：Character(char c)
 
 ### 第五章
 
