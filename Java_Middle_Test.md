@@ -69,11 +69,11 @@ package <包名>;
 
 ##### 访问权限
 
-访问权限	本类	本包的类	子类	非子类的外包类
-public	  是	    是	     是	     是
-protected	是    	是      是       否
-default	  是   	是	     否       否
-private	  是	    否	     否       否
+-访问权限	 本类	 本包的类	 子类	 非子类的外包类
+-public	   是	    是	     是	     是
+-protected	是    	是      是       否
+-default	  是   	是	     否       否
+-private	  是	    否	     否       否
 
 -1、public： 所修饰的类、变量、方法，在内外包均具有访问权限；
 -2、protected： 这种权限是为继承而设计的，protected所修饰的成员，对所有子类是可访问的，但只对同包的类是可访问的，对外包的非子类是不可以访问；
