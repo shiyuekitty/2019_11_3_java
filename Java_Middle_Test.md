@@ -109,6 +109,18 @@ super.x ———— super.play()
 final类不能继承
 
 ##### 上转型对象
+ American是People的子类
+ People people;
+ American american=new American();
+ people=american; people是american的上转型对象
  
+##### 继承与多态
+- 多态性指父类的某个实例方法被其子类重写时，可以产生自己的功能行为
+
+##### abstract类和abstract方法
+- abstract方法只允许申明，不允许实现，不允许使用final和abstract同时修饰一个方法
+
+### 第六章——接口与多态
+
 
 
